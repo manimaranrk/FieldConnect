@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/toggle-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Widget.CalendarView.Custom" parent="android:Widget.CalendarView">
+
+    </style>
+
+    <style parent="@android:style/Widget" name="WhiteBoldText">
+    <item name="android:textColor">@color/button_secondary_color</item>
+    <item name="android:textStyle">bold</item>
+    </style>
+
+    <style parent="@android:style/Widget.TextView" name="PrimaryNormalText">
+    <item name="android:textColor">@color/button_primary_color</item>
+    <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ToggleStyle">
+    <item name="android:padding">@dimen/button_text_padding</item>
+    <item name="android:textColor">@color/button_primary_color</item>
+    <item name="android:textColorSecondary">@color/button_secondary_color</item>
+    <item name="android:minHeight">@dimen/button_min_height</item>
+    </style>
+
+</resources>

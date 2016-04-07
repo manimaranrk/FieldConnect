@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#FFFFFF"
+    android:layout_height="fill_parent" >
+
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="20dp"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/sumbit_button"
+        android:layout_below="@+id/map_linear" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Locate"
+        android:textColor="#FFFFFF"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="#01A9DB"
+        android:id="@+id/locate_button"
+
+        android:layout_below="@+id/map"
+        android:layout_alignLeft="@+id/map"
+        android:layout_alignStart="@+id/map" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="#FFFFFF"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="#01A9DB"
+        android:text="Reached"
+        android:id="@+id/sumbit_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/map"
+        android:layout_alignEnd="@+id/map" />
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="Cancel"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:textSize="15sp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:background="#01A9DB"-->
+        <!--android:id="@+id/mapcancel_button"-->
+        <!--android:layout_below="@+id/map"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/map_linear"
+        android:weightSum="3"
+        android:layout_alignLeft="@+id/map"
+        android:layout_alignStart="@+id/map"
+        android:layout_alignRight="@+id/sumbit_button"
+        android:layout_alignEnd="@+id/sumbit_button">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:background="@drawable/back1"
+            android:id="@+id/mapcancel_button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Field Connect"
+
+
+                android:textStyle="bold"
+                android:textColor="#01A9DB"
+                android:textSize="25sp"
+                android:id="@+id/textView" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/imageView"-->
+
+            <!--android:background="@drawable/hetro"-->
+
+            <!--/>-->
+        </LinearLayout>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:onClick="menuButtonClickEvent"
+            android:background="@drawable/menu"
+            android:id="@+id/map_menu_button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#01A9DB"
+        android:textSize="18sp"
+        android:text="On the Way"
+        android:id="@+id/onthe_button"
+
+        android:layout_above="@+id/locate_button"
+        android:layout_alignLeft="@+id/map"
+        android:layout_alignStart="@+id/map" />
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="#01A9DB"-->
+        <!--android:textSize="18sp"-->
+        <!--android:text="On the Way"-->
+        <!--android:id="@+id/onthe_button"-->
+        <!--android:layout_alignBaseline="@+id/sumbit_button"-->
+        <!--android:layout_alignBottom="@+id/sumbit_button"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+
+</RelativeLayout>

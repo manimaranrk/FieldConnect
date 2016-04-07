@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">PurpleKnot</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="sign_in">Sign In</string>
+
+
+
+    <string name="submit">Submit</string>
+    <string name="setting">Setting</string>
+
+    <string name="forget_password">Forgot Password</string>
+    <string name="change_password">Change Password</string>
+
+
+    <string name="serviceTimeout">100000</string>
+    <string name="connectionRefused">No Connection</string>
+    <string name="connectionError">Connection Error</string>
+
+    <string name="select_state">Select State</string>
+
+    <string name="alert_dialog_title">Please Select</string>
+    <string name="positive_button_text">Select</string>
+    <string name="negative_button_text">Cancel</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_display_user_details">DisplayUserDetailsActivity</string>
+    <string name="title_activity_user_action">UserActionActivity</string>
+    <string name="title_activity_target_entity">TargetEntityActivity</string>
+    <string name="title_activity_mandapam_type">MandapamTypeActivity</string>
+
+
+    <string-array name="planets_array">
+        <item>Mer</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+    </string-array>
+    <string name="title_activity_update_same_status">UpdateSameStatusActivity</string>
+    <string name="title_activity_create_pg">CreatePGActivity</string>
+    <string name="title_activity_pgvg_status">PgvgStatusActivity</string>
+
+
+</resources>

@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#fff"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logo_imageview"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/hetro"
+            android:layout_gravity="center_horizontal" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Field Connect"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#01A9DB"
+            android:textSize="25sp"
+            android:id="@+id/app_textview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#01A9DB"
+            android:textSize="25sp"
+            android:id="@+id/username_textview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date Time"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#01A9DB"
+            android:textSize="25sp"
+            android:id="@+id/time_textview" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/toggle"
+            android:button="@null"
+            android:textOff=""
+            android:textOn=""
+            android:layout_below="@+id/welcome_textview"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:background="@drawable/squareedittext2"
+            android:layout_marginTop="40dp"
+            android:id="@+id/dashboard_submit" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

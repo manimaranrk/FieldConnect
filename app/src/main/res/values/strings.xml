@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FieldConnect</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_approval">ApprovalActivity</string>
+    <string name="title_activity_survey_data">SurveyDataActivity</string>
+</resources>
